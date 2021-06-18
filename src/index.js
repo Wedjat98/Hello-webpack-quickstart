@@ -1,5 +1,6 @@
 import _ from 'lodash';
-
+const hello = require("./hello");
+hello.sayHi();
 function component() {
   const element = document.createElement('div');
 
